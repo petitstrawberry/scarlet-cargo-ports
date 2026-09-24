@@ -1,0 +1,13 @@
+[package]
+name = "scarlet-platform"
+version = "0.1.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+description = "Scarlet Native filesystem operations not yet exposed by std"
+
+[target.'cfg(target_os = "scarlet")'.dependencies]
+scarlet-abi = { git = "https://github.com/petitstrawberry/Scarlet", rev = "6e5c88a2b7ef4bfc019e237a8fdad93bab09c785" }
+scarlet-sys = { git = "https://github.com/petitstrawberry/Scarlet", rev = "6e5c88a2b7ef4bfc019e237a8fdad93bab09c785" }
+
+[lints.rust]
+unexpected_cfgs = { level = "warn", check-cfg = ['cfg(target_os, values("scarlet"))'] }
