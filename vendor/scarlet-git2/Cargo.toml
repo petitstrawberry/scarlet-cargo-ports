@@ -12,7 +12,7 @@
 [package]
 edition = "2018"
 name = "git2"
-version = "0.20.2"
+version = "0.20.2+scarlet.1"
 authors = [
     "Josh Triplett <josh@joshtriplett.org>",
     "Alex Crichton <alex@alexcrichton.com>",

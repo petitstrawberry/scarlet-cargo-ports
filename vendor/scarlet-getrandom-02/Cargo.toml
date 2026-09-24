@@ -12,7 +12,7 @@
 [package]
 edition = "2018"
 name = "getrandom"
-version = "0.2.16"
+version = "0.2.16+scarlet.1"
 authors = ["The Rand Project Developers"]
 build = false
 exclude = [".*"]

@@ -13,7 +13,7 @@
 edition = "2021"
 rust-version = "1.63"
 name = "getrandom"
-version = "0.3.4"
+version = "0.3.4+scarlet.1"
 authors = ["The Rand Project Developers"]
 build = "build.rs"
 exclude = [".*"]
