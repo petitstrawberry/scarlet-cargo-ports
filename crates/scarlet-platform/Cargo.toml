@@ -6,8 +6,8 @@ license = "MIT OR Apache-2.0"
 description = "Scarlet Native filesystem operations not yet exposed by std"
 
 [target.'cfg(target_os = "scarlet")'.dependencies]
-scarlet-abi = { git = "https://github.com/petitstrawberry/Scarlet", rev = "6e5c88a2b7ef4bfc019e237a8fdad93bab09c785" }
-scarlet-sys = { git = "https://github.com/petitstrawberry/Scarlet", rev = "6e5c88a2b7ef4bfc019e237a8fdad93bab09c785" }
+scarlet-abi = { git = "https://github.com/petitstrawberry/Scarlet", rev = "d777bd0b48e4d69c0c592e4a2846e81379d69fe8" }
+scarlet-sys = { git = "https://github.com/petitstrawberry/Scarlet", rev = "d777bd0b48e4d69c0c592e4a2846e81379d69fe8" }
 
 [lints.rust]
 unexpected_cfgs = { level = "warn", check-cfg = ['cfg(target_os, values("scarlet"))'] }

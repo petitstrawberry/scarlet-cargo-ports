@@ -121,5 +121,5 @@ version = "0.2.154"
 
 [target.'cfg(target_os = "scarlet")'.dependencies.scarlet-sys]
 git = "https://github.com/petitstrawberry/Scarlet"
-rev = "6e5c88a2b7ef4bfc019e237a8fdad93bab09c785"
+rev = "d777bd0b48e4d69c0c592e4a2846e81379d69fe8"
 default-features = false
