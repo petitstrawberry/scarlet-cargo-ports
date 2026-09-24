@@ -121,7 +121,7 @@ version = "0.2.154"
 
 [target.'cfg(target_os = "scarlet")'.dependencies.scarlet-sys]
 git = "https://github.com/petitstrawberry/Scarlet"
-rev = "d777bd0b48e4d69c0c592e4a2846e81379d69fe8"
+rev = "3b1b3a32251f6d332765f885ea4fb24a57fd167a"
 default-features = false
 
 [lints.rust.unexpected_cfgs]
